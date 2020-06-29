@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68514FFC24AA3BB000737AAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514FFB24AA3BB000737AAB /* AppDelegate.swift */; };
+		68514FFE24AA3BB000737AAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514FFD24AA3BB000737AAB /* SceneDelegate.swift */; };
+		6851500024AA3BB000737AAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514FFF24AA3BB000737AAB /* ContentView.swift */; };
+		6851500224AA3BB500737AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6851500124AA3BB500737AAB /* Assets.xcassets */; };
+		6851500524AA3BB500737AAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6851500424AA3BB500737AAB /* Preview Assets.xcassets */; };
+		6851500824AA3BB500737AAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6851500624AA3BB500737AAB /* LaunchScreen.storyboard */; };
+		6851501324AA3BB600737AAB /* galaxyGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6851501224AA3BB600737AAB /* galaxyGuideTests.swift */; };
+		6851501E24AA3BB600737AAB /* galaxyGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6851501D24AA3BB600737AAB /* galaxyGuideUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6851500F24AA3BB600737AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68514FF024AA3BB000737AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68514FF724AA3BB000737AAB;
+			remoteInfo = galaxyGuide;
+		};
+		6851501A24AA3BB600737AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68514FF024AA3BB000737AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68514FF724AA3BB000737AAB;
+			remoteInfo = galaxyGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68514FF824AA3BB000737AAB /* galaxyGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = galaxyGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68514FFB24AA3BB000737AAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68514FFD24AA3BB000737AAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		68514FFF24AA3BB000737AAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6851500124AA3BB500737AAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6851500424AA3BB500737AAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6851500724AA3BB500737AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6851500924AA3BB500737AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6851500E24AA3BB600737AAB /* galaxyGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = galaxyGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6851501224AA3BB600737AAB /* galaxyGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = galaxyGuideTests.swift; sourceTree = "<group>"; };
+		6851501424AA3BB600737AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6851501924AA3BB600737AAB /* galaxyGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = galaxyGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6851501D24AA3BB600737AAB /* galaxyGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = galaxyGuideUITests.swift; sourceTree = "<group>"; };
+		6851501F24AA3BB600737AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68514FF524AA3BB000737AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6851500B24AA3BB600737AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6851501624AA3BB600737AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68514FEF24AA3BB000737AAB = {
+			isa = PBXGroup;
+			children = (
+				68514FFA24AA3BB000737AAB /* galaxyGuide */,
+				6851501124AA3BB600737AAB /* galaxyGuideTests */,
+				6851501C24AA3BB600737AAB /* galaxyGuideUITests */,
+				68514FF924AA3BB000737AAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68514FF924AA3BB000737AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68514FF824AA3BB000737AAB /* galaxyGuide.app */,
+				6851500E24AA3BB600737AAB /* galaxyGuideTests.xctest */,
+				6851501924AA3BB600737AAB /* galaxyGuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68514FFA24AA3BB000737AAB /* galaxyGuide */ = {
+			isa = PBXGroup;
+			children = (
+				68514FFB24AA3BB000737AAB /* AppDelegate.swift */,
+				68514FFD24AA3BB000737AAB /* SceneDelegate.swift */,
+				68514FFF24AA3BB000737AAB /* ContentView.swift */,
+				6851500124AA3BB500737AAB /* Assets.xcassets */,
+				6851500624AA3BB500737AAB /* LaunchScreen.storyboard */,
+				6851500924AA3BB500737AAB /* Info.plist */,
+				6851500324AA3BB500737AAB /* Preview Content */,
+			);
+			path = galaxyGuide;
+			sourceTree = "<group>";
+		};
+		6851500324AA3BB500737AAB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6851500424AA3BB500737AAB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6851501124AA3BB600737AAB /* galaxyGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				6851501224AA3BB600737AAB /* galaxyGuideTests.swift */,
+				6851501424AA3BB600737AAB /* Info.plist */,
+			);
+			path = galaxyGuideTests;
+			sourceTree = "<group>";
+		};
+		6851501C24AA3BB600737AAB /* galaxyGuideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6851501D24AA3BB600737AAB /* galaxyGuideUITests.swift */,
+				6851501F24AA3BB600737AAB /* Info.plist */,
+			);
+			path = galaxyGuideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68514FF724AA3BB000737AAB /* galaxyGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6851502224AA3BB600737AAB /* Build configuration list for PBXNativeTarget "galaxyGuide" */;
+			buildPhases = (
+				68514FF424AA3BB000737AAB /* Sources */,
+				68514FF524AA3BB000737AAB /* Frameworks */,
+				68514FF624AA3BB000737AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = galaxyGuide;
+			productName = galaxyGuide;
+			productReference = 68514FF824AA3BB000737AAB /* galaxyGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6851500D24AA3BB600737AAB /* galaxyGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6851502524AA3BB600737AAB /* Build configuration list for PBXNativeTarget "galaxyGuideTests" */;
+			buildPhases = (
+				6851500A24AA3BB600737AAB /* Sources */,
+				6851500B24AA3BB600737AAB /* Frameworks */,
+				6851500C24AA3BB600737AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6851501024AA3BB600737AAB /* PBXTargetDependency */,
+			);
+			name = galaxyGuideTests;
+			productName = galaxyGuideTests;
+			productReference = 6851500E24AA3BB600737AAB /* galaxyGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6851501824AA3BB600737AAB /* galaxyGuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6851502824AA3BB600737AAB /* Build configuration list for PBXNativeTarget "galaxyGuideUITests" */;
+			buildPhases = (
+				6851501524AA3BB600737AAB /* Sources */,
+				6851501624AA3BB600737AAB /* Frameworks */,
+				6851501724AA3BB600737AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6851501B24AA3BB600737AAB /* PBXTargetDependency */,
+			);
+			name = galaxyGuideUITests;
+			productName = galaxyGuideUITests;
+			productReference = 6851501924AA3BB600737AAB /* galaxyGuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68514FF024AA3BB000737AAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Jack Schulz";
+				TargetAttributes = {
+					68514FF724AA3BB000737AAB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					6851500D24AA3BB600737AAB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 68514FF724AA3BB000737AAB;
+					};
+					6851501824AA3BB600737AAB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 68514FF724AA3BB000737AAB;
+					};
+				};
+			};
+			buildConfigurationList = 68514FF324AA3BB000737AAB /* Build configuration list for PBXProject "galaxyGuide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68514FEF24AA3BB000737AAB;
+			productRefGroup = 68514FF924AA3BB000737AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68514FF724AA3BB000737AAB /* galaxyGuide */,
+				6851500D24AA3BB600737AAB /* galaxyGuideTests */,
+				6851501824AA3BB600737AAB /* galaxyGuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68514FF624AA3BB000737AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6851500824AA3BB500737AAB /* LaunchScreen.storyboard in Resources */,
+				6851500524AA3BB500737AAB /* Preview Assets.xcassets in Resources */,
+				6851500224AA3BB500737AAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6851500C24AA3BB600737AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6851501724AA3BB600737AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68514FF424AA3BB000737AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68514FFC24AA3BB000737AAB /* AppDelegate.swift in Sources */,
+				68514FFE24AA3BB000737AAB /* SceneDelegate.swift in Sources */,
+				6851500024AA3BB000737AAB /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6851500A24AA3BB600737AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6851501324AA3BB600737AAB /* galaxyGuideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6851501524AA3BB600737AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6851501E24AA3BB600737AAB /* galaxyGuideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6851501024AA3BB600737AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68514FF724AA3BB000737AAB /* galaxyGuide */;
+			targetProxy = 6851500F24AA3BB600737AAB /* PBXContainerItemProxy */;
+		};
+		6851501B24AA3BB600737AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68514FF724AA3BB000737AAB /* galaxyGuide */;
+			targetProxy = 6851501A24AA3BB600737AAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6851500624AA3BB500737AAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6851500724AA3BB500737AAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6851502024AA3BB600737AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6851502124AA3BB600737AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6851502324AA3BB600737AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"galaxyGuide/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = galaxyGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackSchulz.galaxyGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6851502424AA3BB600737AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"galaxyGuide/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = galaxyGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackSchulz.galaxyGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6851502624AA3BB600737AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = galaxyGuideTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackSchulz.galaxyGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/galaxyGuide.app/galaxyGuide";
+			};
+			name = Debug;
+		};
+		6851502724AA3BB600737AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = galaxyGuideTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackSchulz.galaxyGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/galaxyGuide.app/galaxyGuide";
+			};
+			name = Release;
+		};
+		6851502924AA3BB600737AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = galaxyGuideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackSchulz.galaxyGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = galaxyGuide;
+			};
+			name = Debug;
+		};
+		6851502A24AA3BB600737AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = galaxyGuideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackSchulz.galaxyGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = galaxyGuide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68514FF324AA3BB000737AAB /* Build configuration list for PBXProject "galaxyGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6851502024AA3BB600737AAB /* Debug */,
+				6851502124AA3BB600737AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6851502224AA3BB600737AAB /* Build configuration list for PBXNativeTarget "galaxyGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6851502324AA3BB600737AAB /* Debug */,
+				6851502424AA3BB600737AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6851502524AA3BB600737AAB /* Build configuration list for PBXNativeTarget "galaxyGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6851502624AA3BB600737AAB /* Debug */,
+				6851502724AA3BB600737AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6851502824AA3BB600737AAB /* Build configuration list for PBXNativeTarget "galaxyGuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6851502924AA3BB600737AAB /* Debug */,
+				6851502A24AA3BB600737AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68514FF024AA3BB000737AAB /* Project object */;
+}
