@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FA4FAC824B1585D00C51B27 /* CollectionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA4FAC724B1585D00C51B27 /* CollectionView.storyboard */; };
 		68514FFC24AA3BB000737AAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514FFB24AA3BB000737AAB /* AppDelegate.swift */; };
 		68514FFE24AA3BB000737AAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514FFD24AA3BB000737AAB /* SceneDelegate.swift */; };
 		6851500024AA3BB000737AAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514FFF24AA3BB000737AAB /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FA4FAC724B1585D00C51B27 /* CollectionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CollectionView.storyboard; sourceTree = "<group>"; };
 		68514FF824AA3BB000737AAB /* galaxyGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = galaxyGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68514FFB24AA3BB000737AAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68514FFD24AA3BB000737AAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				6851501D24AA3BB600737AAB /* galaxyGuideUITests.swift */,
+				4FA4FAC724B1585D00C51B27 /* CollectionView.storyboard */,
 				6851501F24AA3BB600737AAB /* Info.plist */,
 			);
 			path = galaxyGuideUITests;
@@ -257,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA4FAC824B1585D00C51B27 /* CollectionView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
